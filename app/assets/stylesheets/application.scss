@@ -2,11 +2,25 @@
 @import "bootstrap";
 
 .logo {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   width: 430px;
+}
+
+.navbar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 430px;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.nav navbar-nav {
+  color: #121212 !important;
+  text-decoration: none !important;
 }
