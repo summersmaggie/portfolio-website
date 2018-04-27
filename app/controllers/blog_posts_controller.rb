@@ -11,6 +11,10 @@ class BlogPostsController < ApplicationController
     @blog_post = BlogPost.new
   end
 
+  def edit
+    @blog_post = BlogPost.find(params[:id])
+  end
+
   def show
     @blog_post = BlogPost.find(params[:id])
   end
@@ -23,6 +27,15 @@ class BlogPostsController < ApplicationController
     else
       flash[:alert] = "Blog post couldn't be saved."
       render :new
+    end
+  end
+
+  def update
+    @blog_post = BlogPost.find(params[:id])
+    if @blog_post.update(blog_post_params)
+      redirect_to blog_posts_path
+    else
+      render :edit
     end
   end
 
