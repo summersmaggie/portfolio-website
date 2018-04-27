@@ -1,5 +1,27 @@
 <!-- incorporate skills, interests and work content here -->
-<h2>this works </h2>
+<div class="container">
+  <%= render "layouts/navbar" %>
+  <h2><span class="work">My Work</h2>
+
+  <div class="row" id="work-sample-block">
+    <div class="col-md-4">
+      <h4>Programming</h4>
+      <img><%= image_tag("goran-ivos-246271-unsplash.jpg", :alt => "maggie-summers-pic", size: "250x250") %></img>
+      <p>Epicodus Ruby/Rails track 2018</p>
+    </div>
+    <div class="col-md-4">
+      <h4>Social Media</h4>
+      <%= image_tag("eaters-collective-129481-unsplash.jpg", :alt => "person-taking-photo-of-brunch", size: "250x250") %>
+      <p>Worked in social media for 5 years before making the switch to programming.</p>
+    </div>
+    <div class="col-md-4">
+      <h4>Teaching</h4>
+      <%= image_tag("the-climate-reality-project-349094-unsplash.jpg", :alt => "maggie-summers-pic", size: "250x250") %>
+      <p>Taught various different senimars and lessons about social media to many different types of people, including small business owners of Portland.</p>
+    </div>
+  </div>
+
+
 <%= render "skills/skill_list" %>
 
 <%= render "interests/interest_list" %>

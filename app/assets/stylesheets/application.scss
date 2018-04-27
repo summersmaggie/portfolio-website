@@ -65,3 +65,33 @@
 #blog-post-title {
   text-align: center;
 }
+
+#work-sample-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 900px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.work {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 900px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#work-sample-block img {
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
