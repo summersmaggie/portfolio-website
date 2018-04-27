@@ -14,7 +14,7 @@ _A portfolio website. View the site here:_
     _The about page talks about who I am, where I come from, and what my passions and interests are. These passions & interests are communicated via an embedded Spotify playlist and a list of what I'm currently reading._
 
   * Work Section:
-    _The work section of my portfolio site covers interesting coding projects I've contributed to, and interesting and relevant social media work I've done in the past. This section includes a few key case studies of past work, as well as a breakdown of my strengths._
+    _The work section of my portfolio site covers interesting coding projects I've contributed to, and interesting and relevant social media work I've done in the past. This section includes a few key case studies of past work, as well as a breakdown of my strengths. Break this out into rows and columns (see scratch piece of paper for brainstorming notes.)_
 
     * Strengths:
         * _5 years of working in client-facing roles in an agency setting has made me adept at multitasking, working under pressure, and hitting deadlines effectively and efficiently._
