@@ -4,7 +4,7 @@
 
 ## Description
 
-_A portfolio website._
+_A portfolio website. View the site here:_
 
 ## Specifications
   * Landing Page:
@@ -16,16 +16,16 @@ _A portfolio website._
   * Work Section:
     _The work section of my portfolio site covers interesting coding projects I've contributed to, and interesting and relevant social media work I've done in the past. This section includes a few key case studies of past work, as well as a breakdown of my strengths._
 
-    * List of strengths:
-        * 5 years of working in client-facing roles in an agency setting has made me adept at multitasking, working under pressure, and hitting deadlines effectively and efficiently.
-        * Years of teaching classes and seminars about social media and social media advertising have taught me to explain complicated topics in simple terms, and have given me the confidence to present to small and large groups of people. 
-        *  
+    * Strengths:
+        * _5 years of working in client-facing roles in an agency setting has made me adept at multitasking, working under pressure, and hitting deadlines effectively and efficiently._
+        * _Years of teaching classes and seminars about social media and social media advertising have taught me to explain complicated topics in simple terms, and have given me the confidence to present to small and large groups of people._
+        * _My background in social media and client-agency work have prepared me to be an excellent and efficient communicator. I am experienced at managing expectations and being readily available whenever a client needs me._
 
-    * List of personal interests:
-        * Reading fiction
-        * Hot yoga
-        * Listening to music and podcasts
-        * Cycling
+    * Personal interests:
+        * _Reading fiction_
+        * _Hot yoga_
+        * _Listening to music and podcasts_
+        * _Cycling_
 
 
   * Blog Section:
@@ -36,9 +36,9 @@ _A portfolio website._
 
 ## Installation
 
-  1. _`$ git clone https://github.com/summersmaggie/marios-whole-foods`_
+  1. _`$ git clone https://github.com/summersmaggie/portfolio-website`_
 
-  2. _`$ cd marios-whole-foods`_
+  2. _`$ cd portfolio_website`_
 
   3. _`$ bundle install`_
 
