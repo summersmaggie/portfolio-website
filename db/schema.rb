@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_04_27_182612) do
+ActiveRecord::Schema.define(version: 2018_04_27_223923) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,6 +19,16 @@ ActiveRecord::Schema.define(version: 2018_04_27_182612) do
     t.string "blog_post_title"
     t.string "blog_post_body"
     t.datetime "date_created"
+  end
+
+  create_table "interests", force: :cascade do |t|
+    t.string "skill_title"
+    t.string "skill_description"
+  end
+
+  create_table "skills", force: :cascade do |t|
+    t.string "skill_title"
+    t.string "skill_description"
   end
 
   create_table "users", force: :cascade do |t|
@@ -37,6 +47,13 @@ ActiveRecord::Schema.define(version: 2018_04_27_182612) do
     t.boolean "admin", default: false
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
+  end
+
+  create_table "work_samples", force: :cascade do |t|
+    t.string "title"
+    t.string "body"
+    t.string "category"
+    t.datetime "date"
   end
 
 end
