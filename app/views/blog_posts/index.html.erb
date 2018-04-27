@@ -1,0 +1,17 @@
+<div class="container">
+  <%= render "layouts/navbar" %>
+
+  <% if @blog_posts.any? %>
+    <% @blog_posts.each do |blog_post| %>
+      <div class="blog-post">
+        <h3>blog_post.blog_post_title</h3>
+        <p><em>blog_post.timestamp</em></p>
+        <p>blog_post.blog_post_body</p>
+      </div>
+    <% end %>
+  <% else %>
+    <p>There are no blog posts yet.</p>
+  <% end %>
+
+  <%= render "layouts/footer" %>
+</div>
