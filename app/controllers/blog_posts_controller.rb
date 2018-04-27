@@ -1,10 +1,18 @@
 class BlogPostsController < ApplicationController
+  before_action :only => [:new, :edit] do
+    redirect_to blog_posts_path unless current_user && current_user.admin
+  end
+
   def index
     @blog_posts = BlogPost.all
   end
 
   def new
     @blog_post = BlogPost.new
+  end
+
+  def show
+    @blog_post = BlogPost.find(params[:id])
   end
 
   def create

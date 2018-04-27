@@ -47,7 +47,7 @@
 }
 
 .footer {
-  position: fixed;
+  // position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -55,4 +55,13 @@
   text-align: center;
   font-size: 10px;
   font-family: 'Gothic A1', sans-serif;
+}
+
+#blog-posts {
+  width: 900px;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+#blog-post-title {
+  text-align: center;
 }

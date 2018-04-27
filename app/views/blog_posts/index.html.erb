@@ -1,17 +1,16 @@
-<div class="container">
+<div class="container" id="blog-posts">
   <%= render "layouts/navbar" %>
 
   <% if @blog_posts.any? %>
     <% @blog_posts.each do |blog_post| %>
-      <div class="blog-post">
-        <h3>blog_post.blog_post_title</h3>
-        <p><em>blog_post.timestamp</em></p>
-        <p>blog_post.blog_post_body</p>
-      </div>
+        <h3 id="blog-post-title"><%= link_to blog_post.blog_post_title, blog_post_path(blog_post) %></h3>
+        <p><em><%= blog_post.date_created %></em></p>
+        <p><%= blog_post.blog_post_body %></p>
     <% end %>
   <% else %>
     <p>There are no blog posts yet.</p>
   <% end %>
 
-  <%= render "layouts/footer" %>
 </div>
+
+<%= render "layouts/footer" %>

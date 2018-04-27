@@ -1,3 +1,5 @@
 <footer class="footer">
-  <p><%= link_to "ADD A BLOG POST", '/blog_posts/new' %></p>
+  <% if current_user && current_user.admin %>
+    <p><%= link_to "ADD A BLOG POST", '/blog_posts/new' %></p>
+  <% end %>
 </footer>
