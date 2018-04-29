@@ -1,0 +1,16 @@
+<div class="container" id="blog-posts">
+  <%= render "layouts/navbar" %>
+
+  <% if @posts.any? %>
+    <% @posts.each do |post| %>
+        <h3 id="blog-post-title"><%= link_to post.title, post_path(post) %></h3>
+        <p><em><%= post.author %></em></p>
+        <p><%= post.content %></p>
+    <% end %>
+  <% else %>
+    <p>There are no blog posts yet.</p>
+  <% end %>
+
+</div>
+
+<%= render "layouts/footer" %>

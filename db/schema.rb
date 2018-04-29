@@ -36,12 +36,6 @@ ActiveRecord::Schema.define(version: 2018_04_28_173900) do
     t.index ["key"], name: "index_active_storage_blobs_on_key", unique: true
   end
 
-  create_table "blog_posts", force: :cascade do |t|
-    t.string "blog_post_title"
-    t.string "blog_post_body"
-    t.datetime "date_created"
-  end
-
   create_table "contacts", force: :cascade do |t|
     t.string "contact_title"
     t.string "contact_description"

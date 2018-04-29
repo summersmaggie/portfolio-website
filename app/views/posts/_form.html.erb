@@ -1,0 +1,13 @@
+<%= render "layouts/errors", :object => @post %>
+
+<%= form_for @post do |f| %>
+  <%= f.label :post_title %>
+  <%= f.text_field :post_title %>
+  <br>
+  <%= f.label :post_author %>
+  <%= f.text_field :post_author %>
+  <br>
+  <%= f.label :post_content %>
+  <%= f.text_field :post_content, :size => 150 %>
+  <%= f.submit  %>
+<% end %>
