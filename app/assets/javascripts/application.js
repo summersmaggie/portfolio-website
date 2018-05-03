@@ -18,6 +18,6 @@
 
 $(document).ready(function(){
   $('#current_list').on('click', function() {
-      $('#current_interests').show();
+      $('#current_interests').toggle();
   });
 });
