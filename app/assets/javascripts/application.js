@@ -14,3 +14,10 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require jquery
+
+$(document).ready(function(){
+  $('#current_list').on('click', function() {
+      $('#current_interests').show();
+  });
+});
