@@ -17,7 +17,7 @@
 //= require jquery
 
 $(document).ready(function(){
-  $('#current_list').on('click', function() {
+  $('.current_list').live('click', function() {
       $('#current_interests').toggle();
   });
 });
