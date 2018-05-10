@@ -4,7 +4,7 @@
   <h3 id="blog-post-title"><%= @blog_post.blog_post_title %></h3>
   <p><%= @blog_post.blog_post_body %></p>
 
-  <% if current_user && current_user.admin %>
+  <!-- <% if current_user && current_user.admin %>
     <p><%= link_to "EDIT BLOG POST", edit_blog_post_path %></p>
   <% end %>
 
@@ -12,7 +12,7 @@
     <p><%= link_to "DELETE BLOG POST", blog_post_path,
                                         :data => {:confirm => "You sure?",
                                         :method => "delete"} %></p>
-  <% end %>
+  <% end %> -->
 
 </div>
 

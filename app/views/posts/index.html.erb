@@ -1,19 +1,23 @@
 <div class="container" id="blog-posts">
   <%= render "layouts/navbar" %>
 
-  <h1><%= @post.headline %></h1>
-  <img width="100%" src="<%= @post.image %>">
-  <p><%= @post.testimonial %></p>
+  <h2>Posts</h2>
 
-  <!-- <% if @posts.any? %>
-    <% @posts.each do |post| %>
-        <h3 id="blog-post-title"><%= link_to post.title, post_path(post) %></h3>
-        <p><em><%= post.author %></em></p>
-        <p><%= post.content %></p>
+  <!-- List of posts -->
+  <% @posts.each do |post| %>
+    <%= render :partial => 'post', :locals => {:post => post} %>
+  <% end %>
+
+  <!-- Pagination links -->
+  <div>
+    <% if @previous_page %>
+      <%= link_to "Prev", buttercms_blog_path(:page => @previous_page) %>
     <% end %>
-  <% else %>
-    <p>There are no blog posts yet.</p>
-  <% end %> -->
+
+    <% if @next_page %>
+      <%= link_to "Next", buttercms_blog_path(:page => @next_page) %>
+    <% end %>
+  </div>
 
 </div>
 
