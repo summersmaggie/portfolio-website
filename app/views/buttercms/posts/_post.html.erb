@@ -1,8 +1,6 @@
-<div>
-  <!-- Featured image -->
-  <%= image_tag(post.featured_image) if post.featured_image %>
+<div class="container" id="blog-posts">
+  <img id="blog-post-image"><%= image_tag(post.featured_image) if post.featured_image %></img>
 
-  <!-- Post title -->
   <h4><%= link_to post.title, buttercms_post_path(post.slug), :title => post.title %></h4>
 
   <!-- Post author -->

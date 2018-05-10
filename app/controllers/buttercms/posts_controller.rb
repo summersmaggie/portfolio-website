@@ -9,7 +9,7 @@ class Buttercms::PostsController < Buttercms::BaseController
   def show
     @post = ButterCMS::Post.find(params[:slug])
 
-    @next_post = @post.meta.next_post
-    @previous_post = @post.meta.previous_post
+    # @next_post = @post.meta.next_post
+    # @previous_post = @post.meta.previous_post
   end
 end
