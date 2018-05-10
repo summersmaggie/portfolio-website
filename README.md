@@ -4,7 +4,7 @@
 
 ## Description
 
-_A portfolio website. View the site here: TBD._
+_A portfolio website. View the site here: https://bit.ly/2I5tBah ._
 
 ## Specifications
   * Landing Page:
