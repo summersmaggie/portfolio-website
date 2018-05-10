@@ -74,13 +74,17 @@
   font-family: 'Gothic A1', sans-serif;
 }
 
-#blog-post-image img {
+#blog-post-preview {
+  padding-bottom: 20px;
+}
+
+.style-image {
   height: 550px;
   width: 824px;
 }
 
-#blog-post-title {
-  text-align: center;
+.style-title {
+
 }
 
 #work-sample-block {
@@ -126,4 +130,15 @@
     height:auto;
     display:block;
     z-index:999;
+}
+
+@media only screen and (min-width: 420px)  {
+    .butter-float-left {
+        float: left;
+        margin: 0px 10px 10px 0px;
+    }
+    .butter-float-right {
+        float: right;
+        margin: 0px 0px 10px 10px;
+    }
 }

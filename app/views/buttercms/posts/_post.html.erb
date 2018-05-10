@@ -1,16 +1,8 @@
-<div class="container" id="blog-posts">
-  <img id="blog-post-image"><%= image_tag(post.featured_image) if post.featured_image %></img>
+<div class="container" id="blog-post-preview">
+  <%= image_tag post.featured_image, :class => "style-image" %>
 
-  <h4><%= link_to post.title, buttercms_post_path(post.slug), :title => post.title %></h4>
-
-  <!-- Post author -->
-  by <%= post.author.first_name %>  <%= post.author.last_name %>
+  <h2><%= link_to post.title, buttercms_post_path(post.slug), :title => post.title, :class => "style-title" %></h2>
 
   <!-- Post summary -->
   <p><%= post.summary %></p>
-
-  <!-- Post categories -->
-  <% post.categories.each do |category| %>
-    <%= link_to category.name, buttercms_category_path(category.slug), :title => category.name %>
-  <% end %>
 </div>

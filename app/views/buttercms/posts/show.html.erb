@@ -1,9 +1,11 @@
+<%= render "layouts/navbar" %>
+
 <div class="container" id="blog-posts">
-  <%= render "layouts/navbar" %>>
 
   <%= content_for :html_title, @post.seo_title %>
   <%= content_for :meta_description, @post.meta_description %>
 
+  <%= image_tag @post.featured_image, :class => "style-image" %>
   <!-- Post title -->
   <h2><%= @post.title %></h2>
 
@@ -27,6 +29,9 @@
   <% if @next_post %>
     <%= link_to @next_post.title, buttercms_post_path(@next_post.slug), :title => @next_post.title %>
   <% end %>
+
+  <%= render "layouts/footer" %>
+
 
   <!--
   // For sharing, we recommend https://www.addthis.com/get/sharing or https://sumome.com/app/share
