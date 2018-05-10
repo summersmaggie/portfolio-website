@@ -21,13 +21,6 @@ _A portfolio website. View the site here: TBD_
         * _Years of teaching classes and seminars about social media and social media advertising have taught me to explain complicated topics in simple terms, and have given me the confidence to present to small and large groups of people._
         * _My background in social media and client-agency work have prepared me to be an excellent and efficient communicator. I am experienced at managing expectations and being readily available whenever a client needs me._
 
-    * Personal interests:
-        * _Reading fiction_
-        * _Hot yoga_
-        * _Listening to music and podcasts_
-        * _Cycling_
-
-
   * Blog Section:
     _The blog section of my portfolio is where my thoughts and musings are communicated with those perusing my website. Topics range from coding to social media._
 
