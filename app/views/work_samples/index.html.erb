@@ -1,41 +1,36 @@
-<!-- incorporate skills, interests and work content here -->
 <div class="container">
   <%= render "layouts/navbar" %>
-  <h2><span class="work">What I Do</h2>
 
-  <div class="row" id="work-sample-block">
-    <div class="col-md-4">
-      <img><%= image_tag("goran-ivos-246271-unsplash.jpg", :alt => "maggie-summers-pic", size: "250x250" ) %></img>
-    </div>
-    <div class="col-md-8">
-      <h4>Programming</h4>
-      <p>I recently graduated from Epicodus after training for 20 weeks to become a full stack developer. I became skilled in CSS/HTML, JavaScript/Angular, and Ruby/Rails. It was a transformative 20 weeks, and more than anything, I learned how to think like a developer, which meant learning how to solve any problem big or small. Best of all, I learned how to create things for the web... like this website, which I built on Rails.</p>
-      <p><a href="https://github.com/summersmaggie" target="_blank">Take a peek at some of the projects I created over at Github.</a></p>
-    </div>
-  </div>
+<div class="container">
 
-  <div class="row" id="work-sample-block">
-    <div class="col-md-4">
-      <img>
-      <%= image_tag("eaters-collective-129481-unsplash.jpg", :alt => "person-taking-photo-of-brunch", size: "250x250") %></img>
-    </div>
-    <div class="col-md-8">
-      <h4>Social Media</h4>
-      <p> I worked in social media for 5 years before pivoting to programming. At fast-paced, client-centric agencies, my roles ranged from social media manager to strategist to community manager.</p>
-      <p><a href="https://www.linkedin.com/in/summersmaggie" target="_blank">Learn more about my background in social media on my LinkedIn profile.</a></p>
-      <p><a href="https://www.linkedin.com/pulse/youre-concerned-facebooks-role-society-yet-you-should-maggie-summers/" target="_blank">Read a little about how I made the decision to leave social media here.</a></p>
-    </div>
-  </div>
+  <div class="container" id="work">
+    <div class="row justify-content-center">
+      <div class="col">
+        <img class="work-photo"><%= image_tag("goran-ivos-246271-unsplash.jpg", :alt => "computer", size: "300x300") %></img>
 
-  <div class="row" id="work-sample-block">
-    <div class="col-md-4">
-      <img><%= image_tag("the-climate-reality-project-349094-unsplash.jpg", :alt => "maggie-summers-pic", size: "250x250") %></img>
+        <div id="coding-copy">
+          <h4>Coding</h4>
+          <p>I recently graduated from Epicodus after training for 20 weeks to become a full stack developer. I became skilled in CSS/HTML, JavaScript/Angular, and Ruby/Rails. It was a transformative 20 weeks, and more than anything, I learned how to think like a developer, which meant learning how to solve any problem big or small. Best of all, I learned how to create things for the web... like this website, which I built on Rails.</p>
+        </div>
+      </div>
+
+      <div class="col">
+        <img class="work-photo"><%= image_tag("eaters-collective-129481-unsplash.jpg", :alt => "person taking photo of food", size: "300x300") %></img>
+        <div id="social-media-copy">
+          <h4>Social Media</h4>
+          <p> I worked in social media for 5 years before pivoting to programming. At fast-paced, client-centric agencies, my roles ranged from social media manager to strategist to community manager.</p>
+          </div>
+      </div>
+
+      <div class="col">
+        <img class="work-photo"><%= image_tag("the-climate-reality-project-349094-unsplash.jpg", :alt => "person taking photo of food", size: "300x300") %></img>
+
+        <div id="teaching-copy">
+          <h4>Teaching</h4>
+          <p>I've taught various seminars and lessons about social media to different types of people, including small business and nonprofit owners via Portland Underground Grad School and international exchange students via World Affairs Council of Oregon.</p>
+        </div>
+      </div>
     </div>
-    <div class="col-md-8">
-      <h4>Teaching</h4>
-      <p>I've taught various seminars and lessons about social media to different types of people, including small business and nonprofit owners via Portland Underground Grad School and international exchange students via World Affairs Council of Oregon.</p>
-      <p><a href="https://www.linkedin.com/pulse/case-study-teaching-facebook-advertising-maggie-summers/" target="_blank">Read my key takeaways from teaching Facebook Advertising at Portland Underground Grad School.</a></p>
-    </div>
-  </div>
-  
+</div>
+
 </div>
