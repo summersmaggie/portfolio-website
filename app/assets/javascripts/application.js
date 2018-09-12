@@ -15,13 +15,23 @@
 //= require bootstrap-sprockets
 
 $(document).ready(function(){
-  $('.current_list').live('click', function() {
-      $('#current_interests').toggle();
-  });
+  // $('.current_list').live('click', function() {
+  //   console.log("clicked");
+  //     $('#current_interests').toggle();
+  // });
 
+  // color-changing on homepage
   var colors = ['#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#800000', '#aaffc3', '#808000', '#000075', '#808080', '#000000'];
 
   var rand = Math.floor(Math.random() * colors.length );
 
   $('#intro').css("color", colors[rand]);
+
+  // toggle on work photos
+  // $('.coding-photo').click(function( event ) {
+  //     $('#coding-copy').show( function () {
+  //       event.preventDefault();
+  //     });
+  // });
+
 });

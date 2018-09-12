@@ -7,7 +7,7 @@
 }
 
 #navbar {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-decoration: none !important;
 }
 
@@ -31,14 +31,14 @@
 #about {
   padding-top: 50px;
   padding-bottom: 50px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-.interests {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-family: 'Open Sans', sans-serif;
-}
+// .interests {
+//   padding-top: 50px;
+//   padding-bottom: 50px;
+//   font-family: 'Roboto', sans-serif;
+// }
 
 .footer {
   position: fixed;
@@ -46,14 +46,14 @@
   width: 100%;
   color: gray;
   font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-left: auto;
   margin-right: auto;
 }
 
 #blog-posts {
   width: 900px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #blog-post-preview {
@@ -91,20 +91,16 @@
 //   padding-top: 20px;
 // }
 
-#current_interests {
-  display: none;
+.coding-photo {
+  padding-bottom: 20px;
 }
 
-#coding-copy {
-  display: none;
+.work-photo {
+  padding-bottom: 20px;
 }
 
-#social-media-copy {
-  display: none;
-}
-
-#teaching-copy {
-  display: none;
+.consulting-photo {
+  padding-bottom: 20px;
 }
 
 .thumbnail:hover {
