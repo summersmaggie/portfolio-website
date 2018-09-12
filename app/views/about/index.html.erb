@@ -1,10 +1,54 @@
 <div class="container">
   <%= render "layouts/navbar" %>
 
-  <div class="text-center" id="about-page">
-    <%= image_tag("maggie.jpeg", :alt => "maggie-summers-pic", height: "500px", width: "500px", class: "img-fluid") %>
+  <div class="container" id="about-page">
+    <div class="row justify-content-center">
 
-    <h5 id="about">Hi! I'm a web developer and former social media manager living in Portland, Oregon.</h5>
+      <div class="col-xs-4 col-xs-offset-4">
+        <img><%= image_tag("maggie.jpeg", :alt => "maggie-summers-pic", height: "500px", width: "500px", class: "img-fluid") %></img>
+
+        <div id="about">
+          <p>cities lived (in chronological order):</p>
+          <ul>
+            <li>Charlotte, NC</li>
+            <li>Glen Ellyn, IL</li>
+            <li>Athens, GA</li>
+            <li>Santiago, Chile</li>
+            <li>Nashville, TN</li>
+            <li>Portland, OR</li>
+          </ul>
+
+          <p>jobs had:</p>
+          <ul>
+            <li>Content Writer</li>
+            <li>Copywriter</li>
+            <li>Social Media Strategist</li>
+            <li>Social Media Manager</li>
+            <li>Web Developer</li>
+          </ul>
+
+          <p>when I'm not working, I'm probably:</p>
+          <ul>
+            <li>traveling</li>
+            <li>reading</li>
+            <li>doing yoga</li>
+            <li>drinking an IPA</li>
+            <li>snuggling with <a href="https://www.instagram.com/p/BgrBiCwHgO5/Nugget">Nugget</a></li>
+          </ul>
+
+        </div>
+      </div>
+
+
+      </div>
+
+
+
+
+
+  </div>
+</div>
+
 
     <!-- <div class="interests">
       <button class="current_list">Tell me more!</button>
@@ -15,7 +59,5 @@
         <h6><a href="https://open.spotify.com/user/123276407/playlist/0bhBeSnGo0uJcBRt1ZaI0l?si=PKAuiCxiRkWUecmE3a5fWg"target="_blank">Watching</a></h6>
       </div>
     </div> -->
-  </div>
-</div>
 <!--
 <%= render "layouts/footer" %> -->
