@@ -15,10 +15,11 @@
 //= require bootstrap-sprockets
 
 $(document).ready(function(){
-  // $('.current_list').live('click', function() {
-  //   console.log("clicked");
-  //     $('#current_interests').toggle();
-  // });
+  $('#current_list').click(function() {
+    console.log("clicked");
+      $('.current_list').hide();
+      $('#current_interests').show();
+  });
 
   // color-changing on homepage
   var colors = ['#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#800000', '#aaffc3', '#808000', '#000075', '#808080', '#000000'];
