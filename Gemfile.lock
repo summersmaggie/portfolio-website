@@ -150,6 +150,7 @@ GEM
     msgpack (1.2.6)
     multi_json (1.13.1)
     nested_form (0.3.2)
+    newrelic_rpm (5.7.0.350)
     nio4r (2.3.1)
     nokogiri (1.10.0)
       mini_portile2 (~> 2.4.0)
@@ -312,6 +313,7 @@ DEPENDENCIES
   launchy
   letter_opener
   listen (>= 3.0.5, < 3.2)
+  newrelic_rpm
   pg (>= 0.18, < 2.0)
   pry
   puma (~> 3.11)

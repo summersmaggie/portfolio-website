@@ -28,7 +28,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'rails_admin', '~> 1.3'
 gem 'buttercms-rails'
 
-
+gem 'newrelic_rpm'
+ 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
