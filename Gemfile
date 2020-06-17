@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.4.1'
+ruby '2.6.3'
 
 gem 'devise', '~> 4.4.3'
 
@@ -29,7 +29,7 @@ gem 'rails_admin', '~> 1.3'
 gem 'buttercms-rails'
 
 gem 'newrelic_rpm'
- 
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
